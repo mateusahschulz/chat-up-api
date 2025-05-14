@@ -1,0 +1,27 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+  
+    /* Language and Environment */
+    "target": "ES2024",
+
+    /* Modules */
+    "module": "NodeNext",
+    "rootDir": "./",
+    "moduleResolution": "nodenext",
+    "baseUrl": "./",
+
+    /* Emit */
+    "outDir": "./dist",
+    // "noEmit": true,
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

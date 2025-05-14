@@ -1,0 +1,28 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "dynamicImport": true,
+      "decorators": false,
+      "topLevelAwait": false,
+      "importMeta": false,
+      "preserveAllComments": false
+    },
+    "minify": {
+      "compress": false,
+      "mangle": false
+    },
+    "baseUrl": "./src",
+    "target": "es2024",
+    "loose": false,
+    "keepClassNames": false
+  },
+  "module":{
+    "type": "es6",
+    "strict": true,
+    "noInterop": false,
+    "outFileExtension": "js"
+  },
+  "minify": false,
+  "isModule": true
+}
